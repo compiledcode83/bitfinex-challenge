@@ -1,0 +1,25 @@
+{
+  "name": "bitfinex-challenge",
+  "version": "1.0.0",
+  "description": "Bitfinex Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "DEBUG=bfx:client node src/client.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/residentevil0803/bitfinex-challenge.git"
+  },
+  "author": "residentevil0803",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/residentevil0803/bitfinex-challenge/issues"
+  },
+  "homepage": "https://github.com/residentevil0803/bitfinex-challenge#readme",
+  "dependencies": {
+    "grenache-nodejs-http": "^0.7.12",
+    "grenache-nodejs-link": "^0.7.12",
+    "prettier": "^2.7.1"
+  }
+}
